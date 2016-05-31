@@ -90,7 +90,7 @@ typedef struct mali_runtime_resumeTag{
 #if defined(CONFIG_CPU_EXYNOS4212) || defined(CONFIG_CPU_EXYNOS4412)
 mali_runtime_resume_table mali_runtime_resume = {266, 900000, 1};
 #else
-mali_runtime_resume_table mali_runtime_resume = {267, 1000000, 1};
+mali_runtime_resume_table mali_runtime_resume = {160, 950000, 1};
 #endif
 
 /* dvfs table */
